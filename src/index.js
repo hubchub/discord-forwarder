@@ -4,6 +4,7 @@ const { Client, IntentsBitField } = require('discord.js');
 const axios = require("axios")
 const mainTelegramChannel = '-1001697984045'; // Main telegram channel ID
 const telegramChatIds = ['-1001814498420'] // Add specific langauge chats here
+const discordAnnouncementsChannelId = '887908559730397184'
 const client = new Client({
     intents: [
         IntentsBitField.Flags.MessageContent,
@@ -18,6 +19,8 @@ client.on('ready', (c) => {
 
 client.on('messageCreate', (msg) => {
     console.log(msg) // this can be removed eventually
+    if (msg?.channelId !== discordAnnouncementsChannelId) 
+	return	
     // need to filter msg based on msg.channelId
 	// only forward messages where the channelId is equal to the channelId of the Announcements channel
     axios.post(`https://api.telegram.org/bot${process.env.TELEGRAM_TOKEN}/sendMessage`, { // Post an annoucement into the main channel 

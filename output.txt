@@ -1,0 +1,60 @@
+Quai Telegram Announcements#0840 is online
+<ref *1> Message {
+  channelId: '887908559730397184',
+  guildId: '887783279053406238',
+  id: '1085970798717718568',
+  createdTimestamp: 1678986014776,
+  type: 0,
+  system: false,
+  content: 'Quai Nation --\n' +
+    '\n' +
+    'Join Quai co-founder <@708312588286427186> (<https://twitter.com/mechanikalk/>) for a Twitter Space discussion with Leonard Kish, the co-founder of Cortex (<https://twitter.com/app_cortex/>, <https://crtx.app/>, <https://twitter.com/leonardkish/>) in 7 hours.\n' +
+    '\n' +
+    'Come learn more about Quai Network and get acquainted with Cortex: the ultimate tool for creating, collaborating, and publishing on Web3. \n' +
+    '\n' +
+    '**Set your reminders on Twitter and Discord 👇 **\n' +
+    'https://twitter.com/i/spaces/1ynKOajyWrEJR?s=20\n' +
+    '\n' +
+    'https://discord.com/events/887783279053406238/1085943049877717062\n' +
+    '\n' +
+    '@everyone',
+  author: User {
+    id: '252594670280900608',
+    bot: false,
+    system: false,
+    flags: UserFlagsBitField { bitfield: 64 },
+    username: 'Max02',
+    discriminator: '0696',
+    avatar: 'fc0e7addf03f5b398b9bf558cd94e65d',
+    banner: undefined,
+    accentColor: undefined
+  },
+  pinned: false,
+  tts: false,
+  nonce: '1085970797530447872',
+  embeds: [],
+  components: [],
+  attachments: Collection(0) [Map] {},
+  stickers: Collection(0) [Map] {},
+  position: null,
+  editedTimestamp: null,
+  reactions: ReactionManager { message: [Circular *1] },
+  mentions: MessageMentions {
+    everyone: true,
+    users: Collection(1) [Map] { '708312588286427186' => [User] },
+    roles: Collection(0) [Map] {},
+    _members: null,
+    _channels: null,
+    _parsedUsers: null,
+    crosspostedChannels: Collection(0) [Map] {},
+    repliedUser: null
+  },
+  webhookId: null,
+  groupActivityApplication: null,
+  applicationId: null,
+  activity: null,
+  flags: MessageFlagsBitField { bitfield: 0 },
+  reference: null,
+  interaction: null
+}
+-1001814498420 ok
